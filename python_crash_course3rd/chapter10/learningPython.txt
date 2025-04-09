@@ -1,0 +1,19 @@
+This might be a good exercise, write down what i learned so far in python:
+Well, i learn some of the common syntaxes and starting to get use with the
+data types in python such as tuples, dictionaries and lists:
+	1. list are basically a array of arrays in C
+	2. dictionaries are like structs, the differences is that dictionaries
+	contains a key, and a value, the key is like a variable name in the struct
+	and teh value is the data that key contains
+	3. the tuples are like lists but immutable, that means, is like a const **arr
+
+We have the set as well, is like a randon array, index got mixed up on each call, i am trying to understand in which situations i can use the set().
+
+After that i was able to understand the first glimpses of how OOP works, object-oriented programming, so basically we can define classes, classes aims to represent object or real worlds instances into our code, to the class groups many resources useful to use within that object, example:
+	e.G.:
+		Class	Room:
+			def __init__(self, size, type):
+				self.size = size
+				self.type = type
+
+	the class room tries to represent a real world object, a room, this class try to be generic, to accept any size and any type, with type i am trying to define if the room is a kitchem, a bathroom, a restroom, a bedroom and so on, given the type we can create methods to work with that type.

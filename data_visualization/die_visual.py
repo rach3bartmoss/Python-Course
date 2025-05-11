@@ -10,8 +10,6 @@ for roll_num in range(150000):
 	result = die.roll() + die_2.roll()
 	results.append(result)
 
-plt.style.use('seaborn-v0_8')
-
 frequencies = []
 max_result = die.num_sides + die_2.num_sides
 poss_results = range(2, max_result + 1)
